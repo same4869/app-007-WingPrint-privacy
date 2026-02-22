@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WingPrint | 雁过留痕 法律与支持</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1b1d22;
+      --muted: #606676;
+      --line: #e8ebf2;
+      --accent: #b77811;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top right, #fff5dd 0%, var(--bg) 48%);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 28px 18px 52px;
+    }
+    .hero {
+      background: linear-gradient(132deg, #f8d37a 0%, #d8911f 70%);
+      border-radius: 18px;
+      padding: 22px;
+      color: #1e1403;
+      box-shadow: 0 10px 34px rgba(169, 110, 14, 0.24);
+    }
+    .hero h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.2;
+    }
+    .hero p {
+      margin: 8px 0 0;
+      color: rgba(30, 20, 3, 0.85);
+    }
+    .meta {
+      margin-top: 6px;
+      font-size: 13px;
+      color: rgba(30, 20, 3, 0.88);
+    }
+    .grid {
+      margin-top: 18px;
+      display: grid;
+      gap: 12px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      transition: transform .14s ease, box-shadow .14s ease, border-color .14s ease;
+    }
+    .card:hover {
+      transform: translateY(-1px);
+      border-color: #d8deea;
+      box-shadow: 0 8px 22px rgba(36, 45, 72, 0.08);
+    }
+    .card h2 {
+      margin: 0;
+      font-size: 19px;
+      color: #252c3c;
+    }
+    .card p {
+      margin: 7px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .footer {
+      margin-top: 22px;
+      color: #687083;
+      font-size: 13px;
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>雁过留痕 WingPrint</h1>
+      <p>法律与支持中心</p>
+      <div class="meta">版本 1.0 · iOS 17+ · 开发者 SameX</div>
+    </section>
+
+    <section class="grid" aria-label="法律与支持链接">
+      <a class="card" href="./privacy-policy.html">
+        <h2>隐私政策</h2>
+        <p>说明数据收集范围、权限用途、本机与 iCloud 数据存储方式。</p>
+      </a>
+      <a class="card" href="./terms-of-service.html">
+        <h2>服务条款</h2>
+        <p>说明功能边界、使用要求、风险提示与免责声明。</p>
+      </a>
+      <a class="card" href="./support.html">
+        <h2>支持与反馈</h2>
+        <p>联系开发者、提交问题反馈、获取支持入口。</p>
+      </a>
+    </section>
+
+    <div class="footer">
+      联系邮箱：<a href="mailto:same4869@163.com">same4869@163.com</a>
+    </div>
+  </main>
+</body>
+</html>
